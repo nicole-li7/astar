@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="astar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="puzzle8">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="missionaries">
+      <UniqueIdentifier>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="queens8">
+      <UniqueIdentifier>{B2C3D4E5-F6A7-8901-BCDE-F12345678901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="puzzle15">
+      <UniqueIdentifier>{C3D4E5F6-A7B8-9012-CDEF-123456789012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klotski">
+      <UniqueIdentifier>{D4E5F6A7-B8C9-0123-DEFA-234567890123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="astar.cpp" />
+    <ClCompile Include="astar\AStarSolver.cpp">
+      <Filter>astar</Filter>
+    </ClCompile>
+    <ClCompile Include="puzzle8\Puzzle8.cpp">
+      <Filter>puzzle8</Filter>
+    </ClCompile>
+    <ClCompile Include="missionaries\Missionaries.cpp">
+      <Filter>missionaries</Filter>
+    </ClCompile>
+    <ClCompile Include="queens8\Queens8.cpp">
+      <Filter>queens8</Filter>
+    </ClCompile>
+    <ClCompile Include="puzzle15\Puzzle15.cpp">
+      <Filter>puzzle15</Filter>
+    </ClCompile>
+    <ClCompile Include="klotski\Klotski.cpp">
+      <Filter>klotski</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="astar\INode.h">
+      <Filter>astar</Filter>
+    </ClInclude>
+    <ClInclude Include="astar\AStar.h">
+      <Filter>astar</Filter>
+    </ClInclude>
+    <ClInclude Include="puzzle8\Puzzle8.h">
+      <Filter>puzzle8</Filter>
+    </ClInclude>
+    <ClInclude Include="missionaries\Missionaries.h">
+      <Filter>missionaries</Filter>
+    </ClInclude>
+    <ClInclude Include="queens8\Queens8.h">
+      <Filter>queens8</Filter>
+    </ClInclude>
+    <ClInclude Include="puzzle15\Puzzle15.h">
+      <Filter>puzzle15</Filter>
+    </ClInclude>
+    <ClInclude Include="klotski\Klotski.h">
+      <Filter>klotski</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
