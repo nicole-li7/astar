@@ -4,9 +4,9 @@ One A* search in C++ that solves five different puzzles: the 8-puzzle, the 15-pu
 
 ## Demo
 
-![A* solving a shuffled 8-puzzle and comparing four heuristics](docs/demo.gif)
+![Building the solver with clang and running it: A* prints the 116-move solution to Klotski step by step](docs/demo.gif)
 
-Recorded from the interactive demo on my portfolio, a JavaScript port of the 8-puzzle solver. [Try it in your browser](https://nicole-li7.github.io/projects/search.html).
+Recorded from the program itself, built with clang on macOS and run in a terminal (output replayed at reading speed). There's also an interactive 8-puzzle version on my portfolio: [try it here](https://nicole-li7.github.io/projects/search.html).
 
 ## Features
 
@@ -17,7 +17,14 @@ Recorded from the interactive demo on my portfolio, a JavaScript port of the 8-p
 
 ## Getting started
 
-Open `astar.slnx` in Visual Studio and run the `astar` project. It solves each puzzle in turn and prints the steps to the console.
+Open `astar.slnx` in Visual Studio and run the `astar` project. It prints the steps to the console.
+
+On macOS or Linux it builds without Visual Studio:
+
+```
+cd astar
+clang++ -std=c++17 -O2 -I. $(find . -name '*.cpp') -o astar && ./astar
+```
 
 ## How it's built
 
